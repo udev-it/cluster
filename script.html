@@ -1,0 +1,136 @@
+ <script>
+    function hide_3_columnas(){ 
+      document.getElementById('3columnas').style.display = 'none';
+  }
+    $("#about_us").mouseover(function() {
+        erase_borders()
+      $("#about").css("color", "#fff");
+      $("#about").css("border-bottom", "solid");
+      $("#about").css("border-color", "#FFCB04");
+    })
+
+    $("#our_services").mouseover(function() {
+        erase_borders()
+      $("#services").css("color", "#fff");
+      $("#services").css("border-bottom", "solid");
+      $("#services").css("border-color", "#FFCB04");
+    })
+
+
+    $("#our_team").mouseover(function() {
+        erase_borders()
+      $("#team").css("color", "#fff");
+      $("#team").css("border-bottom", "solid");
+      $("#team").css("border-color", "#FFCB04");
+    })
+
+
+    $("#our_clients").mouseover(function() {
+        erase_borders()
+      $("#clients").css("color", "#fff");
+      $("#clients").css("border-bottom", "solid");
+      $("#clients").css("border-color", "#FFCB04");
+    })
+
+    $("#Our_contact").mouseover(function() {
+        erase_borders()
+       $("#contact").css("color", "#002E5D");
+       $("#contact").css("background-color","#FFCB04");
+    })
+
+
+
+
+
+    function erase_borders() {
+        $("#home").css("color", " #ffffff");
+        $("#home").css("border", " none");
+
+        $("#about").css("color", " #ffffff");
+        $("#about").css("border", " none");
+
+        $("#team").css("color", " #ffffff");
+        $("#team").css("border", " none");
+
+        $("#clients").css("color", " #ffffff");
+        $("#clients").css("border", " none");
+
+
+        $("#services").css("color", " #ffffff");
+        $("#services").css("border", " none");
+
+        $("#contact").css("color", "#ffffff");
+       $("#contact").css("background-color","#002E5D");
+
+        
+
+          
+    }
+
+
+
+    function scrollToAnchor(aid){
+      var aTag = $("a[name='"+ aid +"']");
+      $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+  }
+
+  $("#home, #home1").click(function() {
+     
+       erase_borders()
+      $("#home").css("color", "#fff");
+      $("#home").css("border-bottom", "solid");
+      $("#home").css("border-color", "#FFCB04");
+     scrollToAnchor('inicio');
+  });
+
+  $("#about, #about2").click(function() {
+       erase_borders()
+      $("#about").css("color", "#fff");
+      $("#about").css("border-bottom", "solid");
+      $("#about").css("border-color", "#FFCB04");
+    
+     scrollToAnchor('about');
+  });
+
+  $("#services, #services2").click(function() {
+     scrollToAnchor('services');
+       erase_borders()
+      $("#services").css("color", "#fff");
+      $("#services").css("border-bottom", "solid");
+      $("#services").css("border-color", "#FFCB04");
+  });
+
+
+  $("#team, #team2").click(function() {
+     scrollToAnchor('team');
+       erase_borders()
+      $("#team").css("color", "#fff");
+      $("#team").css("border-bottom", "solid");
+      
+  });
+
+
+  $("#clients, #clients2").click(function() {
+     scrollToAnchor('clients');
+      erase_borders()
+      $("#clients").css("color", "#fff");
+      $("#clients").css("border-bottom", "solid");
+      $("#clients").css("border-color", "#FFCB04");
+  });
+
+  $("#contact, #contact2").click(function() {
+     scrollToAnchor('contact');
+       erase_borders()
+      $("#contact").css("color", "#002E5D");
+      $("#contact").css("background-color","#FFCB04");
+      
+  });
+
+
+
+
+  
+
+
+
+  </script>

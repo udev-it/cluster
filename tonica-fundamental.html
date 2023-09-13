@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tonica Fundamental</title>
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+<body>
+	
+<div class="container">
+		
+	<div class="row">
+		<div class="col-md-12">
+			<p>Escribe tu nombre completo en los campos, si tienes mas de un nombre escribelo dentro del segundo campo, asi tambien como tus apellidos</p>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre</label>
+              <input type="text" class="form-control" id="nombre1" aria-describedby="nombre1">              
+          	</div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre2</label>
+              <input type="text" class="form-control"  id="nombre2">            
+           </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Apellido</label>
+              <input type="text" class="form-control" id="apellido1">
+            </div>
+         <div class="form-group">
+          <label for="exampleInputPassword1">Apellido2</label>
+          <input type="text" class="form-control" id="apellido2">
+        </div>             
+      </form>
+  
+			<p>Urgencia Interior</p>
+			<p>Escribe tu dia y tu año se necesita escribor cada numero en las casillas</p>
+			<strong>Ejemplo dd/mm/aaaa</strong>
+
+				<div class="form-group mx-sm-3 mb-2 form-inline">
+
+						<strong class="m-2 ">Dia</strong>
+    					<input type="type" class="form-control mr-2" id="d1" maxlength="1" style="width: 50px;">
+    					<input type="type" class="form-control mr-2" id="d2" maxlength="1" style="width: 50px;">
+
+    					<strong class="m-2">Mes</strong>
+    					<input type="type" class="form-control mr-2" id="mes"  maxlength="2"  style="width: 50px; ">
+
+						<strong class="m-2">Año</strong> 
+
+    				<div class="form-group mx-sm-3 mb-2 form-inline">
+   				 	<input type="type" class="form-control mr-2"  id="a1"    style="width: 50px; ">
+    			 	<input type="type" class="form-control mr-2"  id="a2"   maxlength="1" style="width: 50px;">
+     				<input type="type" class="form-control mr-2"  id="a3"  maxlength="1" style="width: 50px; ">
+    				<input type="type" class="form-control mr-2"  id="a4"   maxlength="1"  style="width: 50px;">
+  				</div>
+  				</div>
+  					
+			<button  class="btn btn-primary" id="calcular_urgencia">Enviar</button>		
+
+	</div>
+
+
+	
+
+				
+			
+
+
+</div>
+</body>
+</html>
+  <script src="js/jquery.js"></script>
+
+<script>
+	var d1 = 0;
+	var d2 = 0;
+	var mes = 0;
+	var ano = 0;
+
+
+
+	 $("#calcular_urgencia").click(function(){
+	 		 d1 = $( '#nombre1 ').val();
+	 		 d2 = $( '#nombre2 ').val();
+	 		 mes = $( '#apellido1 ').val();
+	 		 
+	 		 a1 = $( '#a1 ').val();
+	 		 a2 = $( '#a2 ').val();
+	 		 a3 = $( '#a3 ').val();
+	 		 a4 = $( '#a4 ').val();
+	 		 
+	 		 
+	 		 /*
+	 		  a1 = a1.replace(/\s+/g, '').length;
+	 		  a2 = a2.replace(/\s+/g, '').length;
+	 		  a3 = a3.replace(/\s+/g, '').length;
+	 		  a4 = a4.replace(/\s+/g, '').length;
+			
+				*/
+
+	 		 numero1 = document.getElementById("a1").value;
+	 		 numero2 = document.getElementById("a2").value;
+	 		 numero3 = document.getElementById("a3").value;
+	 		 numero4 = document.getElementById("a4").value;
+
+	 		  valor1 = parseInt(numero1);
+	 		  valor2 = parseInt(numero2);
+	 		  valor3 = parseInt(numero3);
+	 		  valor4 = parseInt(numero4);
+
+
+	 		 suma = valor1 + valor2 + valor3 + valor4;
+
+
+	 		 var str = "suma";
+			var res = str.split(" ");
+
+	 		 console.log(res); 
+	 		
+
+	 		  
+ 	 		
+	 		
+
+	 		
+
+	 		 	/*
+	 		  nombre_1 = nombre1.replace(/\s+/g, '').length;
+	 		  nombre_2 = nombre2.replace(/\s+/g, '').length;
+	 		  apellido_1 = apellido1.replace(/\s+/g, '').length;
+	 		  apellido_2 = apellido2.replace(/\s+/g, '').length;
+
+				console.log(nombre_1)
+				console.log(nombre_2) //30	
+				console.log(apellido_1) //30	
+				console.log(apellido_2	) //30	
+				*/
+	});
+	/* Obtengo valores */
+
+	
+
+	 $("#calcular_tonica").click(function(){
+	 		 nombre1 = $( '#nombre1 ').val();
+	 		 nombre2 = $( '#nombre2 ').val();
+	 		 apellido1 = $( '#apellido1 ').val();
+	 		 apellido2 = $( '#apellido2 ').val();
+	 		 
+
+
+
+	 		 console.log(nombre1);
+	 		 console.log(nombre2);
+
+	 		 console.log(apellido1);
+	 		 console.log(apellido2);
+
+
+	 		  nombre_1 = nombre1.replace(/\s+/g, '').length;
+	 		  nombre_2 = nombre2.replace(/\s+/g, '').length;
+	 		  apellido_1 = apellido1.replace(/\s+/g, '').length;
+	 		  apellido_2 = apellido2.replace(/\s+/g, '').length;
+
+				console.log(nombre_1)
+				console.log(nombre_2) //30	
+				console.log(apellido_1) //30	
+				console.log(apellido_2	) //30	
+	});
+	
+
+
+
+</script>
