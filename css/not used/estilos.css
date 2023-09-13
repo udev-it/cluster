@@ -1,0 +1,780 @@
+@font-face {
+  font-family:'Aileron';
+  src:url(../fuentes/Aileron-Regular.otf);
+  font-weight: lighter;
+  
+}
+
+
+@font-face {
+  font-family:'Aileron_light';
+  src:url(../fuentes/Aileron-Light.otf);
+  font-weight: lighter;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Aileron';
+  
+}
+
+body p {
+   font-family:'Aileron_light';
+  src:url(../fuentes/Aileron-Light.otf);
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+
+
+.logo {
+font-family: 'Righteous', cursive;
+font-size: 2em;
+margin-top: 10px;
+color: #f89810;
+}
+
+.titular{
+   font-family: Aileron;
+  font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 134.89%;
+color:#353535;
+border-bottom: solid #FFCB04 8px; 
+
+
+}
+
+
+.titular_ligth{
+   font-family: Aileron_light;
+  font-style: normal;
+font-weight: lighter;
+font-size: 80px;
+line-height: 134.89%;
+color:#353535;
+}
+
+.icono_plus  {
+  font-size: 3em;
+  color: #f2f0eb;
+}
+
+.icono_plus a:hover {
+ color:red;
+}
+
+.logo_footer {
+font-family: 'Righteous', cursive;
+font-size: 2em;
+margin-top: 10px;
+color: #f89810;
+}
+
+  .btn_contacto {
+    color:white;
+    height: 46px;
+    font-size: 16px;
+    line-height: 112%;
+    background: #002E5D;
+    border: 1px solid #FCFBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px
+}
+
+  .btn_contacto:hover {
+    color:#002E5D;
+    height: 46px;
+    font-size: 16px;
+    line-height: 112%;
+    background: #FFBC04;
+    border: 1px solid #FCFBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px
+}
+
+
+ .btn_see_more {
+    width: 46px;
+    height: 34px;
+    color:#002E5D;
+    text-align: center;
+    font-size: 20px;
+    line-height: 112%;
+    background: #fff;
+    border: 1px solid #FCFBFB;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+  .btn_see_more:hover {
+    width: 46px;
+    height: 34px;
+    color:#002E5D;
+    
+  
+    line-height: 112%;
+    background: #FFBC04;
+    border: 1px solid #FFBC04;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px
+}
+
+
+.titulo_banner {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+    text-shadow: 4px -1px 2px rgba(0,0,0,0.6);
+}
+
+.fondo_azul{
+  background-color: rgba(0, 46, 93, 0.8);
+  border-bottom: solid 4px #FFCB04;
+  height: 90px;
+}
+.azul_002E5D{
+  background-color:#002E5D;
+
+}
+
+.imagenes_carrusel{
+  width: 120px;
+  height: 120px;
+}
+
+
+.imagen_about_abajo{
+  display: none;
+}
+
+.azul_002E5D_texto{
+  color: #002E5D;
+
+}
+
+.sombra_texto{
+  text-shadow: 2px 2px 4px rgba(85, 92, 99, 1);
+}
+
+.amarillo_FFBC04{
+  color:#FFBC04;
+  line-height: 135%;
+}
+
+.pleca_amarilla{
+  border-top: solid 9px #FFBC04;
+
+}
+
+.box_e4e4e4{
+  background-color: rgba(228,228,228, .5);
+  background-image: url(../imagenes/Team-background.svg);
+  background-size: cover;
+}
+
+.imagen_ourteam{
+  width: 188px;
+}
+
+.box_rba_grisclaro{
+  background-color: rgba(240,239,239, 0.5);
+}
+
+.box_gris_oscuro{
+  background-color: rgba(108,108,108, 0.7);
+  color:#FCFBFB;
+}
+
+.box_amarillo {
+  background-color: #FFBC04;
+  padding: 10px;
+  color: #353535;
+  box-sizing: border-box;
+  margin-top: 2em;
+
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #002E5D;;
+    border-color: #002E5D;
+}
+
+
+
+.box_azul {
+  background-color:#002E5D; 
+  background-image: url(../imagenes/DIFFERENTATION.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center bottom;
+  padding: 10px;
+  color: #FCFBFB;
+  box-sizing: border-box;
+  border-bottom:solid 55px #FFBC04;
+}
+
+
+
+.titulo_diferentation {
+  font-size: 4.5rem;
+
+}
+
+
+
+@media (max-width: 768px){
+
+.navbar-collapse{
+  margin-top: 9px;
+  background-color:#002E5D; 
+}
+
+
+.titulo_banner {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+}
+
+    .box_azul {
+  background-color:#002E5D; 
+  background-image: url(../imagenes/DIFFERENTATION.svg);
+  background-repeat: no-repeat;
+  background-size: 768px;
+  background-position:center bottom;
+  padding: 10px;
+  color: #FCFBFB;
+  box-sizing: border-box;
+  border-bottom:solid 55px #FFBC04;
+}
+
+
+.titulo_diferentation {
+  font-size: 3em;
+
+}
+
+.titular {
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 134.89%;
+    color: #353535;
+    border-bottom: solid #FFCB04 8px;
+}
+
+}
+
+
+
+@media (max-width: 500px){
+
+  .titulo_banner {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+}
+
+.imagen_about_abajo{
+  display: block;
+}
+
+
+.imagen_about_up{
+  display: none;
+}
+
+}
+
+
+
+
+.box_azul-solo {
+  background-color:#002E5D; 
+  padding: 10px;
+  color: #FCFBFB;
+  box-sizing: border-box;
+  
+}
+
+.bacl {
+  background-color:#002E5D; 
+  padding: 10px;
+  color: #FCFBFB;
+  box-sizing: border-box;
+  border-bottom:solid 55px #FFBC04;
+}
+
+
+
+
+.cajasombra_menores{
+  width: 125px;
+
+}
+
+.box_claro {
+  background-color:#f5f1eb;
+  border-radius: 10px;
+  padding: 10px;
+  color: #000;
+  box-sizing: border-box;
+  margin-top: 2em;
+
+}
+
+
+
+
+
+
+
+#boton_regreso {
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+.fondo_zignos {
+  background-color: #efa82d;
+}
+
+
+ .border_derecho ul li {
+
+    font-size: 0.5em;
+    
+    
+    list-style: disc;
+    text-align: left;
+    line-height: 22px;
+    }
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+
+}
+
+
+.portfolio-item img  a:link {
+    margin-bottom: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+
+
+.fa-3x {
+    font-size: 3em;
+    padding: 4px;
+    color: #f89810;
+}
+
+.navbar-default .navbar-text {
+    color: #CDDC39;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+ .naranja {
+        background-color:#e86514;
+
+}
+
+
+
+
+
+
+
+.navbar-brand {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.espacio_arriba {
+    margin-top: 100px;
+}
+
+
+
+.navbar-custom {
+    background-color: rgba(0, 46, 93, 0.8);
+    border-bottom: solid 4px #FFCB04;
+    height: 90px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    margin-right: 2.5rem;
+    margin-right: 2.5rem;
+    /*background-color: rgba(0, 46, 93, 0.8);*/
+
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+    border-bottom: 3px #FFCB04  solid;
+ 
+
+  }
+
+
+.caja_zignos a:link {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+
+
+.border_color {
+
+  border: solid 8px #f46242;
+  margin: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer --- */
+
+
+#myFooter {
+    background-color: #002E5D;
+    color: white;
+    padding-top: 30px;
+    margin-top: 100px;
+
+
+   /*----opjo ---- */
+
+    margin-top: 100px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #FCFBFB;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    color:#002E5D;
+    margin: 10px;
+   
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 2.5em;
+}
+
+#myFooter h5 {
+    font-size: 26px;
+    color: white;
+   
+    border-bottom: 1px white solid;
+    line-height: 3em;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+ width: 233px;
+height: 46px;
+
+font-size: 14px;
+line-height: 112%;
+/* Blue - Geotex */
+
+background: #002E5D;
+/* Grey soft */
+
+border: 1px solid #FCFBFB;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px
+}
+
+
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #f89810;
+    background-color:#631800;
+}
+
+
+
+
+.nav-pills  a:hover {
+    color: red;
+    background-color:#631800;
+   
+   
+}
+
+
+.divisor {
+  width: 100%;
+  background-color: #f5f1eb;
+  border-bottom: solid 2px #f89810;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+// Form control focus state
+//
+// Generate a customized focus state and for any input with the specified color,
+// which defaults to the `@input-border-color-focus` variable.
+//
+// We highly encourage you to not customize the default value, but instead use
+// this to tweak colors on an as-needed basis. This aesthetic change is based on
+// WebKit's default styles, but applicable to a wider range of browsers. Its
+// usability and accessibility should be taken into account with any change.
+//
+// Example usage: change the default blue border and shadow to white for better
+// contrast against a dark gray background.
+*/
+
+
+@mixin form-control-focus() {
+  &:focus {
+    color: $input-focus-color;
+    background-color: $input-focus-bg;
+    border-color: $input-focus-border-color;
+    outline: none;
+    @include box-shadow($input-focus-box-shadow);
+  }
+}
+
+
+
+.back-to-top {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    margin-top: 300px;
+}
+
+
+
+
+@mixin form-validation-state($state, $color) {
+
+  .form-control,
+  .custom-select {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      border-color: $color;
+
+      &:focus {
+        box-shadow: 0 0 0 .2rem rgba($color,.25);
+      }
+
+      ~ .invalid-feedback,
+      ~ .invalid-tooltip {
+        display: block;
+      }
+    }
+  }
+
+
+
+  .form-check-input {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      + .form-check-label {
+        color: $color;
+      }
+    }
+  }
+
+  // custom radios and checks
+  .custom-control-input {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      ~ .custom-control-indicator {
+        background-color: rgba($color, .25);
+      }
+      ~ .custom-control-description {
+        color: $color;
+      }
+    }
+  }
+
+  // custom file
+  .custom-file-input {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      ~ .custom-file-control {
+        border-color: $color;
+
+        &::before { border-color: inherit; }
+      }
+      &:focus {
+        box-shadow: 0 0 0 .2rem rgba($color,.25);
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+
+
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
