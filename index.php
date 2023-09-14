@@ -159,10 +159,10 @@
             <li data-target="#carousel" data-slide-to="2"></li>
             <li data-target="#carousel" data-slide-to="3"></li>
             <!--Insertado-->
-            <li data-target="#carousel" data-slide-to="4"></li>
+            <!-- <li data-target="#carousel" data-slide-to="4"></li> inicia slides agregados
             <li data-target="#carousel" data-slide-to="5"></li>
             <li data-target="#carousel" data-slide-to="6"></li>
-            <li data-target="#carousel" data-slide-to="7"></li>
+            <li data-target="#carousel" data-slide-to="7"></li> termina slides-->
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
@@ -251,7 +251,7 @@
 
   </style>
             <!--INSERTADO-->
-           <div class="carousel-item">
+           <!--<div class="carousel-item"> inicia imagenes documentos carrusel
               <a href="#">
                 <picture>
                   <source srcset="imagenes/InterSolar.jpg" media="(max-width: 768px)">
@@ -306,7 +306,7 @@
                     </button>
                 </div>
               </a>
-            </div>
+            </div>  imagenes de eventos carrusel-->
 
 
 
@@ -925,7 +925,7 @@ Inspección de Centrales Eléctricas en Media y Alta Tensión).<span></small>
    <div class="container">
      <div class="row">
       <div class="col-md-12 text-center">
-         <h2 class="titular">Cursos  y capacitaciones</h2>
+         <h2 class="titular">Noticias</h2>
       </div>
       </div>
       
